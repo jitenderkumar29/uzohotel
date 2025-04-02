@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaApple, FaGooglePlay, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {

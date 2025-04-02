@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './CityHeader.css';
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
+import { MdKeyboardArrowDown } from 'react-icons/md';
 
 const CityHeader = () => {
-  const [isEnabled, setIsEnabled] = useState(true);
+  const [, setIsEnabled] = useState(true);
   const items = ['Bangalore', 'Chennai', 'Delhi', 'Gurgaon', 'Hyderabad', 'Kolkata', 'Mumbai', 'Noida', 'Pune', 'Agra', 'Bareilly', 'All Cities'];
   const handleCity = (message: string) => {
     console.log(message);

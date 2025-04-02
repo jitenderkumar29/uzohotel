@@ -1,4 +1,3 @@
-import React from 'react';
 import uzoImage from '../../assets/premium_section4.jpg'; // Adjust path as needed
 import './PremiumSection.css';
 

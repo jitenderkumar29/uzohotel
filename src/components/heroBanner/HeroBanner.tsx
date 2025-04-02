@@ -1,4 +1,3 @@
-import React from 'react'
 import './HeroBanner.css'
 import HotelSearchBar from '../hotelSearchBar/HotelSearchBar'
 
