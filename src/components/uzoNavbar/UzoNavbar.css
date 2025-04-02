@@ -1,0 +1,171 @@
+/* UzoHeader.css */
+*{
+  width: auto;
+  margin: 0;
+}
+.uzo-header {
+  background-color: #131921;
+  /* background-color: white; */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 0 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  top: 0%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo h1 {
+  /* color: white; */
+  color: #f26622;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-item h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+  /* color: #333; */
+}
+
+.nav-item p {
+  font-size: 12px;
+  margin: 3px 0 0;
+  color: white;
+  /* color: #666; */
+}
+
+/* Hover Effects */
+.hover-effect {
+  transition: all 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.hover-effect:hover {
+  background-color: #131921;
+  /* background-color: #f8f8f8; */
+  transform: translateY(-2px);
+}
+
+.hover-effect:hover h2 {
+  color: #f26622;
+}
+
+.user-profile.hover-effect:hover {
+  background-color: #f26622;
+}
+
+.user-profile.hover-effect:hover h2 {
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+  
+  .nav-links {
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+/* UzoHeader.css
+*{
+  width: auto;
+  height: auto;
+}
+.uzo-header {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+
+.uzo-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5a5f;
+}
+
+.header-link {
+  padding: 8px 15px;
+  margin: 0 5px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.header-link:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-2px);
+}
+
+.link-title {
+  font-weight: 500;
+  color: #333;
+}
+
+.link-subtitle {
+  font-size: 12px;
+  color: #666;
+}
+
+.business-link:hover {
+  color: #ff5a5f;
+}
+
+.list-property-link:hover {
+  color: #28a745;
+}
+
+.call-us-link:hover {
+  color: #007bff;
+}
+
+.welcome-link {
+  color: #ff5a5f;
+  font-weight: 500;
+}
+
+.language-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.language-dropdown .dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px) {
+  .header-link {
+    margin: 5px 0;
+    text-align: left;
+  }
+  
+  .link-subtitle {
+    display: none;
+  }
+} */

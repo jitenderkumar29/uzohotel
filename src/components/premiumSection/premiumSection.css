@@ -1,0 +1,43 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9; /* Responsive height */
+  height: 325px;
+  /* max-height: 90vh; */
+}
+
+.hero-content {
+  position: absolute;
+  inset: 0; /* Covers entire container */
+  display: grid;
+  place-content: center;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
+.hero-image{
+  padding: 10px 0px;
+  height: 325px;
+  width: 100%;
+}
+
+.booking-btn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  background: #ff5a5f;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
