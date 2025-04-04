@@ -121,7 +121,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="footer-bottom">
         <div className="container">
-          <p className="copyright">2025 © Balfour Beatty</p>
+          <p className="copyright">Balfour Beatty @2025 All Copyright Reserved</p>
         </div>
       </div>
     </footer>
